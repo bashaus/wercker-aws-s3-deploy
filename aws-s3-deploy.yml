@@ -1,0 +1,98 @@
+version: "1"
+
+mime-types:
+  text/cache-manifest:
+    CacheControl:
+      max-age: PT0S
+
+  text/html:
+    CacheControl:
+      max-age: PT0S
+
+  text/xml:
+    CacheControl:
+      max-age: PT0S
+
+  application/xml:
+    CacheControl:
+      max-age: PT0S
+
+  application/json:
+    CacheControl:
+      max-age: PT0S
+
+  application/rss+xml:
+    CacheControl:
+      max-age: PT15M
+
+  image/x-icon:
+    CacheControl:
+      max-age: P7D
+
+  image/gif:
+    CacheControl:
+      max-age: P7D
+
+  image/png:
+    CacheControl:
+      max-age: P7D
+
+  image/jpg:
+    CacheControl:
+      max-age: P7D
+
+  image/jpeg:
+    CacheControl:
+      max-age: P7D
+
+  video/ogg:
+    CacheControl:
+      max-age: P7D
+
+  audio/ogg:
+    CacheControl:
+      max-age: P7D
+
+  video/mp4:
+    CacheControl:
+      max-age: P7D
+
+  video/webm:
+    CacheControl:
+      max-age: P7D
+
+  font/truetype:
+    CacheControl:
+      max-age: P7D
+
+  font/opentype:
+    CacheControl:
+      max-age: P7D
+
+  application/x-font-woff:
+    CacheControl:
+      max-age: P7D
+
+  font/woff2:
+    CacheControl:
+      max-age: P7D
+
+  image/svg+xml:
+    CacheControl:
+      max-age: P7D
+
+  application/vnd.ms-fontobject:
+    CacheControl:
+      max-age: P7D
+
+  text/css:
+    CacheControl:
+      max-age: PT1H
+
+  application/javascript:
+    CacheControl:
+      max-age: PT1H
+
+  text/javascript:
+    CacheControl:
+      max-age: PT1H

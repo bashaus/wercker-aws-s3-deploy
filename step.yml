@@ -1,0 +1,35 @@
+name: aws-s3-deploy
+version: 0.0.1
+summary: |
+  Deploy the contents of a directory to an S3 Bucket. Automatically attaches
+  the appropriate headers for Content Type and Content Encoding, and makes the
+  file publicly readable.
+tags:
+  - amazon
+  - aws
+  - s3
+
+properties:
+  - name: configuration-file
+    type: string
+    required: false
+    default: $WERCKER_ROOT/aws-s3-deploy.yml
+
+  - name: target-bucket
+    type: string
+    required: true
+
+  - name: aws-access-key-id
+    type: string
+    required: false
+    default: $AWS_ACCESS_KEY_ID
+
+  - name: aws-secret-access-key
+    type: string
+    required: false
+    default: $AWS_SECRET_ACCESS_KEY
+
+  - name: aws-region
+    type: string
+    required: false
+    default: $AWS_DEFAULT_REGION

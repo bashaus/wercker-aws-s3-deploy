@@ -1,0 +1,6 @@
+pyyaml==3.12
+pydash==4.3.3
+pathlib==1.0.1
+boto3==1.6.6
+isodate==0.6.0
+braceexpand==0.1.2

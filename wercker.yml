@@ -1,0 +1,21 @@
+box: python:latest
+
+build:
+  steps:
+    - script:
+      name: remove git
+      code: rm -rf $WERCKER_ROOT/.git
+
+    - pip-install
+    - pip-install:
+      requirements_file: ""
+      packages_list: pyinstaller
+
+    - script:
+      name: pyinstaller
+      code: pyinstaller --noconfirm run.py
+
+publish:
+  steps:
+    - internal/publish-step:
+        owner: bashaus
