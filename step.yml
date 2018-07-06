@@ -1,5 +1,5 @@
 name: aws-s3-deploy
-version: 0.0.1
+version: 0.0.2
 summary: |
   Deploy the contents of a directory to an S3 Bucket. Automatically attaches
   the appropriate headers for Content Type and Content Encoding, and makes the

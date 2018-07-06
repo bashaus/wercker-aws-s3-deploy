@@ -1,5 +1,6 @@
 # MIME type (lowercase)       # Extensions                                     #
 # =========================== # ============================================== #
 
+application/x-font-woff         woff
 font/woff2                      woff2
-image/svg+xml										svg
+image/svg+xml                   svg

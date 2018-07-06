@@ -13,12 +13,14 @@ RFC 2119.
 
 ## Sample Usage
 
-    deploy:
-      box: python:latest
-      steps:
-        - bashaus/aws-s3-deploy:
-          target-bucket: $DEPLOY_TARGET_BUCKET
-          configuration-file: $WERCKER_ROOT/aws-s3-deploy.yml
+```yaml
+deploy:
+  box: python:latest
+  steps:
+    - bashaus/aws-s3-deploy:
+      target-bucket: $DEPLOY_TARGET_BUCKET
+      configuration-file: $WERCKER_ROOT/aws-s3-deploy.yml
+```
 
 Along with the available properties, ensure that you configure the
 `aws-s3-deploy.yml` file.
