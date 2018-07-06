@@ -15,7 +15,7 @@ RFC 2119.
 
 ```yaml
 deploy:
-  box: python:latest
+  box: python:3.6
   steps:
     - bashaus/aws-s3-deploy:
       target-bucket: $DEPLOY_TARGET_BUCKET
